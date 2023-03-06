@@ -1,0 +1,31 @@
+.newslide-container {
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.newslide-navbar {
+  height: var(--dl-size-size-small);
+  z-index: 100;
+  position: relative;
+  padding-top: 0px;
+  padding-left: 30px;
+  border-bottom: 2px solid rgba(120, 120, 120, 0.4);
+  padding-right: 0px;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+.newslide-button {
+  color: var(--dl-color-scheme-white);
+  display: flex;
+  align-self: center;
+  padding-top: 6px;
+  border-color: #99cec2;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  padding-bottom: 6px;
+  justify-content: flex-start;
+  background-color: #99cec2;
+}
